@@ -1,0 +1,22 @@
+{
+    "name": "glavweb/mongodb-bundle",
+    "description": "Symfony GlavwebMongoDBBundle.",
+    "authors": [
+        {
+            "name": "Andrey Nilov",
+            "email": "nilov@glavweb.ru",
+            "homepage": "http://glavweb.ru"
+        },
+        {
+            "name": "Glavweb Community",
+            "homepage": "https://github.com/glavweb/GlavwebMongoDBBundle/contributors"
+        }
+    ],
+    "require": {
+        "php": ">=7.1",
+        "symfony/framework-bundle": "~2.3|~3.0"
+    },
+    "autoload": {
+        "psr-4": { "Glavweb\\MongoDBBundle\\": "" }
+    }
+}
