@@ -1,4 +1,5 @@
 services:
     glavweb_mongodb:
+        public: true
         class: Glavweb\MongoDBBundle\Registry
         arguments: ["%mongodb.host%", "%mongodb.dbname%", "%mongodb.user%", "%mongodb.password%"]
